@@ -22,7 +22,7 @@
   </div>
 </template>
 <script setup lang="ts" name = "PersonSimple">
-    import { reactive, toRefs, toRef, ref, defineExpose, withDefaults, onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onUnmounted, onBeforeUnmount } from 'vue';
+    import { reactive, toRefs, toRef, ref, onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onUnmounted, onBeforeUnmount } from 'vue';
     // 导入ts
     import {type PersonInter, type Persons} from '@/types';
 
