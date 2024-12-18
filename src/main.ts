@@ -8,6 +8,9 @@ import router from './router';
 // 引入pinia
 import { createPinia } from 'pinia'; 
 
+// 引入mitt
+import emitter from './utils/emitter';
+
 // 创建一个应用
 const app = createApp(App);
 // 创建pinia
