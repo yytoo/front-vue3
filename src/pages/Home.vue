@@ -5,7 +5,7 @@ import Father from '@/components/Father.vue';
 </script>
 
 <template>
-    <Father/>
+<Father/>
 <MyCount/>
 <LookTalk/>
 </template>

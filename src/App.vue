@@ -4,6 +4,7 @@
   import PersonSimple from './components/PersonSimple.vue'
   import {type Persons, type PersonInter} from '@/types'
   import { RouterLink, RouterView } from 'vue-router'
+  import Other from './pages/Other.vue'
   let personsList = reactive<Persons>([
      {id:'afdf34', name:'张三', age:62, x:"str"},
      {id:'afdf34', name:'李四', age:73},
@@ -37,6 +38,7 @@
       <!-- 默认是push模式 -->
       <RouterLink replace :to="{name:'xinwen'}" >新闻</RouterLink>
       <RouterLink :to="{path:'/about'}" active-class="active">关于</RouterLink>
+      <RouterLink :to="{path: '/other'}" active-class="active">其他</RouterLink>
     </div>
     <!--展示区-->
     <div class="main-content">

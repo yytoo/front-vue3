@@ -1,6 +1,7 @@
 <script setup lang="ts" name = "News">
 import {reactive} from 'vue'
 import { RouterLink, RouterView , useRouter} from 'vue-router';
+import Father from '@/components/slot/Father.vue';
 const newList = reactive([
     {
         id:'asdf12433',
@@ -79,6 +80,7 @@ function showNewsDetail(item:NewsInter){
 <div class="news-content">
     <RouterView></RouterView>
 </div>
+<Father/>
 </template>
 
 <style>
